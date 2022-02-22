@@ -1,0 +1,39 @@
+.Hori_box{
+	border: 2px solid black;
+	height: 4%;
+	width: 1530px;
+	background-color:dodgerblue;
+	margin-left: -07px;
+	margin-top: -07px;
+}
+.vertical_box{
+	border: 2px solid black;
+	height: 637.5px;
+	width: 20%;
+	background-color:dodgerblue ;
+	margin-left: -07px;
+	margin-top: -18px;
+	border-top-style: none;
+}
+*{
+	background-color:;
+}
+.details{
+	position: absolute;
+left: 30%;
+margin-top: -80px;
+}
+.content1{
+	position: absolute;
+left: 30%;
+margin-top: -20px;
+}
+.btn{
+position: absolute;
+left: 40%;
+margin-top: 100px;
+
+
+}
+
+
