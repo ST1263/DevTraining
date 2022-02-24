@@ -1,0 +1,28 @@
+E:\VS\Inheritance\Inheritance\bin\Debug\netcoreapp3.1\Inheritance.exe
+E:\VS\Inheritance\Inheritance\bin\Debug\netcoreapp3.1\Inheritance.deps.json
+E:\VS\Inheritance\Inheritance\bin\Debug\netcoreapp3.1\Inheritance.runtimeconfig.json
+E:\VS\Inheritance\Inheritance\bin\Debug\netcoreapp3.1\Inheritance.runtimeconfig.dev.json
+E:\VS\Inheritance\Inheritance\bin\Debug\netcoreapp3.1\Inheritance.dll
+E:\VS\Inheritance\Inheritance\bin\Debug\netcoreapp3.1\Inheritance.pdb
+E:\VS\Inheritance\Inheritance\obj\Debug\netcoreapp3.1\Inheritance.csproj.AssemblyReference.cache
+E:\VS\Inheritance\Inheritance\obj\Debug\netcoreapp3.1\Inheritance.GeneratedMSBuildEditorConfig.editorconfig
+E:\VS\Inheritance\Inheritance\obj\Debug\netcoreapp3.1\Inheritance.AssemblyInfoInputs.cache
+E:\VS\Inheritance\Inheritance\obj\Debug\netcoreapp3.1\Inheritance.AssemblyInfo.cs
+E:\VS\Inheritance\Inheritance\obj\Debug\netcoreapp3.1\Inheritance.csproj.CoreCompileInputs.cache
+E:\VS\Inheritance\Inheritance\obj\Debug\netcoreapp3.1\Inheritance.dll
+E:\VS\Inheritance\Inheritance\obj\Debug\netcoreapp3.1\Inheritance.pdb
+E:\VS\Inheritance\Inheritance\obj\Debug\netcoreapp3.1\Inheritance.genruntimeconfig.cache
+E:\DevTrainning\C# Task\Inheritance\Inheritance\bin\Debug\netcoreapp3.1\Inheritance.exe
+E:\DevTrainning\C# Task\Inheritance\Inheritance\bin\Debug\netcoreapp3.1\Inheritance.deps.json
+E:\DevTrainning\C# Task\Inheritance\Inheritance\bin\Debug\netcoreapp3.1\Inheritance.runtimeconfig.json
+E:\DevTrainning\C# Task\Inheritance\Inheritance\bin\Debug\netcoreapp3.1\Inheritance.runtimeconfig.dev.json
+E:\DevTrainning\C# Task\Inheritance\Inheritance\bin\Debug\netcoreapp3.1\Inheritance.dll
+E:\DevTrainning\C# Task\Inheritance\Inheritance\bin\Debug\netcoreapp3.1\Inheritance.pdb
+E:\DevTrainning\C# Task\Inheritance\Inheritance\obj\Debug\netcoreapp3.1\Inheritance.csproj.AssemblyReference.cache
+E:\DevTrainning\C# Task\Inheritance\Inheritance\obj\Debug\netcoreapp3.1\Inheritance.GeneratedMSBuildEditorConfig.editorconfig
+E:\DevTrainning\C# Task\Inheritance\Inheritance\obj\Debug\netcoreapp3.1\Inheritance.AssemblyInfoInputs.cache
+E:\DevTrainning\C# Task\Inheritance\Inheritance\obj\Debug\netcoreapp3.1\Inheritance.AssemblyInfo.cs
+E:\DevTrainning\C# Task\Inheritance\Inheritance\obj\Debug\netcoreapp3.1\Inheritance.csproj.CoreCompileInputs.cache
+E:\DevTrainning\C# Task\Inheritance\Inheritance\obj\Debug\netcoreapp3.1\Inheritance.dll
+E:\DevTrainning\C# Task\Inheritance\Inheritance\obj\Debug\netcoreapp3.1\Inheritance.pdb
+E:\DevTrainning\C# Task\Inheritance\Inheritance\obj\Debug\netcoreapp3.1\Inheritance.genruntimeconfig.cache

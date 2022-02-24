@@ -1,0 +1,13 @@
+E:\VS\Oops\Oops\bin\Debug\netcoreapp3.1\Oops.exe
+E:\VS\Oops\Oops\bin\Debug\netcoreapp3.1\Oops.deps.json
+E:\VS\Oops\Oops\bin\Debug\netcoreapp3.1\Oops.runtimeconfig.json
+E:\VS\Oops\Oops\bin\Debug\netcoreapp3.1\Oops.runtimeconfig.dev.json
+E:\VS\Oops\Oops\bin\Debug\netcoreapp3.1\Oops.dll
+E:\VS\Oops\Oops\bin\Debug\netcoreapp3.1\Oops.pdb
+E:\VS\Oops\Oops\obj\Debug\netcoreapp3.1\Oops.GeneratedMSBuildEditorConfig.editorconfig
+E:\VS\Oops\Oops\obj\Debug\netcoreapp3.1\Oops.AssemblyInfoInputs.cache
+E:\VS\Oops\Oops\obj\Debug\netcoreapp3.1\Oops.AssemblyInfo.cs
+E:\VS\Oops\Oops\obj\Debug\netcoreapp3.1\Oops.csproj.CoreCompileInputs.cache
+E:\VS\Oops\Oops\obj\Debug\netcoreapp3.1\Oops.dll
+E:\VS\Oops\Oops\obj\Debug\netcoreapp3.1\Oops.pdb
+E:\VS\Oops\Oops\obj\Debug\netcoreapp3.1\Oops.genruntimeconfig.cache

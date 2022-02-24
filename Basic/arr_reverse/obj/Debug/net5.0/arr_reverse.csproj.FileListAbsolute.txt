@@ -1,0 +1,15 @@
+E:\VS\Basic\arr_reverse\bin\Debug\net5.0\arr_reverse.exe
+E:\VS\Basic\arr_reverse\bin\Debug\net5.0\arr_reverse.deps.json
+E:\VS\Basic\arr_reverse\bin\Debug\net5.0\arr_reverse.runtimeconfig.json
+E:\VS\Basic\arr_reverse\bin\Debug\net5.0\arr_reverse.runtimeconfig.dev.json
+E:\VS\Basic\arr_reverse\bin\Debug\net5.0\arr_reverse.dll
+E:\VS\Basic\arr_reverse\bin\Debug\net5.0\ref\arr_reverse.dll
+E:\VS\Basic\arr_reverse\bin\Debug\net5.0\arr_reverse.pdb
+E:\VS\Basic\arr_reverse\obj\Debug\net5.0\arr_reverse.GeneratedMSBuildEditorConfig.editorconfig
+E:\VS\Basic\arr_reverse\obj\Debug\net5.0\arr_reverse.AssemblyInfoInputs.cache
+E:\VS\Basic\arr_reverse\obj\Debug\net5.0\arr_reverse.AssemblyInfo.cs
+E:\VS\Basic\arr_reverse\obj\Debug\net5.0\arr_reverse.csproj.CoreCompileInputs.cache
+E:\VS\Basic\arr_reverse\obj\Debug\net5.0\arr_reverse.dll
+E:\VS\Basic\arr_reverse\obj\Debug\net5.0\ref\arr_reverse.dll
+E:\VS\Basic\arr_reverse\obj\Debug\net5.0\arr_reverse.pdb
+E:\VS\Basic\arr_reverse\obj\Debug\net5.0\arr_reverse.genruntimeconfig.cache

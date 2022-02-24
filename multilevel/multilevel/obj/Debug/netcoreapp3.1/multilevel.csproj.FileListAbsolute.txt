@@ -1,0 +1,14 @@
+C:\Users\DELL\source\repos\multilevel\multilevel\bin\Debug\netcoreapp3.1\multilevel.exe
+C:\Users\DELL\source\repos\multilevel\multilevel\bin\Debug\netcoreapp3.1\multilevel.deps.json
+C:\Users\DELL\source\repos\multilevel\multilevel\bin\Debug\netcoreapp3.1\multilevel.runtimeconfig.json
+C:\Users\DELL\source\repos\multilevel\multilevel\bin\Debug\netcoreapp3.1\multilevel.runtimeconfig.dev.json
+C:\Users\DELL\source\repos\multilevel\multilevel\bin\Debug\netcoreapp3.1\multilevel.dll
+C:\Users\DELL\source\repos\multilevel\multilevel\bin\Debug\netcoreapp3.1\multilevel.pdb
+C:\Users\DELL\source\repos\multilevel\multilevel\obj\Debug\netcoreapp3.1\multilevel.csproj.AssemblyReference.cache
+C:\Users\DELL\source\repos\multilevel\multilevel\obj\Debug\netcoreapp3.1\multilevel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\source\repos\multilevel\multilevel\obj\Debug\netcoreapp3.1\multilevel.AssemblyInfoInputs.cache
+C:\Users\DELL\source\repos\multilevel\multilevel\obj\Debug\netcoreapp3.1\multilevel.AssemblyInfo.cs
+C:\Users\DELL\source\repos\multilevel\multilevel\obj\Debug\netcoreapp3.1\multilevel.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\multilevel\multilevel\obj\Debug\netcoreapp3.1\multilevel.dll
+C:\Users\DELL\source\repos\multilevel\multilevel\obj\Debug\netcoreapp3.1\multilevel.pdb
+C:\Users\DELL\source\repos\multilevel\multilevel\obj\Debug\netcoreapp3.1\multilevel.genruntimeconfig.cache

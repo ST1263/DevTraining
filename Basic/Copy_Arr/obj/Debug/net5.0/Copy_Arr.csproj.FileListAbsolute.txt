@@ -1,0 +1,16 @@
+E:\VS\Basic\Copy_Arr\bin\Debug\net5.0\Copy_Arr.exe
+E:\VS\Basic\Copy_Arr\bin\Debug\net5.0\Copy_Arr.deps.json
+E:\VS\Basic\Copy_Arr\bin\Debug\net5.0\Copy_Arr.runtimeconfig.json
+E:\VS\Basic\Copy_Arr\bin\Debug\net5.0\Copy_Arr.runtimeconfig.dev.json
+E:\VS\Basic\Copy_Arr\bin\Debug\net5.0\Copy_Arr.dll
+E:\VS\Basic\Copy_Arr\bin\Debug\net5.0\ref\Copy_Arr.dll
+E:\VS\Basic\Copy_Arr\bin\Debug\net5.0\Copy_Arr.pdb
+E:\VS\Basic\Copy_Arr\obj\Debug\net5.0\Copy_Arr.csproj.AssemblyReference.cache
+E:\VS\Basic\Copy_Arr\obj\Debug\net5.0\Copy_Arr.GeneratedMSBuildEditorConfig.editorconfig
+E:\VS\Basic\Copy_Arr\obj\Debug\net5.0\Copy_Arr.AssemblyInfoInputs.cache
+E:\VS\Basic\Copy_Arr\obj\Debug\net5.0\Copy_Arr.AssemblyInfo.cs
+E:\VS\Basic\Copy_Arr\obj\Debug\net5.0\Copy_Arr.csproj.CoreCompileInputs.cache
+E:\VS\Basic\Copy_Arr\obj\Debug\net5.0\Copy_Arr.dll
+E:\VS\Basic\Copy_Arr\obj\Debug\net5.0\ref\Copy_Arr.dll
+E:\VS\Basic\Copy_Arr\obj\Debug\net5.0\Copy_Arr.pdb
+E:\VS\Basic\Copy_Arr\obj\Debug\net5.0\Copy_Arr.genruntimeconfig.cache

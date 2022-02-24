@@ -1,0 +1,16 @@
+E:\VS\Basic\Basic\bin\Debug\net5.0\Basic.exe
+E:\VS\Basic\Basic\bin\Debug\net5.0\Basic.deps.json
+E:\VS\Basic\Basic\bin\Debug\net5.0\Basic.runtimeconfig.json
+E:\VS\Basic\Basic\bin\Debug\net5.0\Basic.runtimeconfig.dev.json
+E:\VS\Basic\Basic\bin\Debug\net5.0\Basic.dll
+E:\VS\Basic\Basic\bin\Debug\net5.0\ref\Basic.dll
+E:\VS\Basic\Basic\bin\Debug\net5.0\Basic.pdb
+E:\VS\Basic\Basic\obj\Debug\net5.0\Basic.csproj.AssemblyReference.cache
+E:\VS\Basic\Basic\obj\Debug\net5.0\Basic.GeneratedMSBuildEditorConfig.editorconfig
+E:\VS\Basic\Basic\obj\Debug\net5.0\Basic.AssemblyInfoInputs.cache
+E:\VS\Basic\Basic\obj\Debug\net5.0\Basic.AssemblyInfo.cs
+E:\VS\Basic\Basic\obj\Debug\net5.0\Basic.csproj.CoreCompileInputs.cache
+E:\VS\Basic\Basic\obj\Debug\net5.0\Basic.dll
+E:\VS\Basic\Basic\obj\Debug\net5.0\ref\Basic.dll
+E:\VS\Basic\Basic\obj\Debug\net5.0\Basic.pdb
+E:\VS\Basic\Basic\obj\Debug\net5.0\Basic.genruntimeconfig.cache

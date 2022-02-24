@@ -1,0 +1,14 @@
+C:\Users\DELL\source\repos\hirarchical\hirarchical\bin\Debug\netcoreapp3.1\hirarchical.exe
+C:\Users\DELL\source\repos\hirarchical\hirarchical\bin\Debug\netcoreapp3.1\hirarchical.deps.json
+C:\Users\DELL\source\repos\hirarchical\hirarchical\bin\Debug\netcoreapp3.1\hirarchical.runtimeconfig.json
+C:\Users\DELL\source\repos\hirarchical\hirarchical\bin\Debug\netcoreapp3.1\hirarchical.runtimeconfig.dev.json
+C:\Users\DELL\source\repos\hirarchical\hirarchical\bin\Debug\netcoreapp3.1\hirarchical.dll
+C:\Users\DELL\source\repos\hirarchical\hirarchical\bin\Debug\netcoreapp3.1\hirarchical.pdb
+C:\Users\DELL\source\repos\hirarchical\hirarchical\obj\Debug\netcoreapp3.1\hirarchical.csproj.AssemblyReference.cache
+C:\Users\DELL\source\repos\hirarchical\hirarchical\obj\Debug\netcoreapp3.1\hirarchical.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\source\repos\hirarchical\hirarchical\obj\Debug\netcoreapp3.1\hirarchical.AssemblyInfoInputs.cache
+C:\Users\DELL\source\repos\hirarchical\hirarchical\obj\Debug\netcoreapp3.1\hirarchical.AssemblyInfo.cs
+C:\Users\DELL\source\repos\hirarchical\hirarchical\obj\Debug\netcoreapp3.1\hirarchical.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\hirarchical\hirarchical\obj\Debug\netcoreapp3.1\hirarchical.dll
+C:\Users\DELL\source\repos\hirarchical\hirarchical\obj\Debug\netcoreapp3.1\hirarchical.pdb
+C:\Users\DELL\source\repos\hirarchical\hirarchical\obj\Debug\netcoreapp3.1\hirarchical.genruntimeconfig.cache

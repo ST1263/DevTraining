@@ -1,0 +1,15 @@
+E:\VS\Basic\arrlen\bin\Debug\net5.0\arrlen.exe
+E:\VS\Basic\arrlen\bin\Debug\net5.0\arrlen.deps.json
+E:\VS\Basic\arrlen\bin\Debug\net5.0\arrlen.runtimeconfig.json
+E:\VS\Basic\arrlen\bin\Debug\net5.0\arrlen.runtimeconfig.dev.json
+E:\VS\Basic\arrlen\bin\Debug\net5.0\arrlen.dll
+E:\VS\Basic\arrlen\bin\Debug\net5.0\ref\arrlen.dll
+E:\VS\Basic\arrlen\bin\Debug\net5.0\arrlen.pdb
+E:\VS\Basic\arrlen\obj\Debug\net5.0\arrlen.GeneratedMSBuildEditorConfig.editorconfig
+E:\VS\Basic\arrlen\obj\Debug\net5.0\arrlen.AssemblyInfoInputs.cache
+E:\VS\Basic\arrlen\obj\Debug\net5.0\arrlen.AssemblyInfo.cs
+E:\VS\Basic\arrlen\obj\Debug\net5.0\arrlen.csproj.CoreCompileInputs.cache
+E:\VS\Basic\arrlen\obj\Debug\net5.0\arrlen.dll
+E:\VS\Basic\arrlen\obj\Debug\net5.0\ref\arrlen.dll
+E:\VS\Basic\arrlen\obj\Debug\net5.0\arrlen.pdb
+E:\VS\Basic\arrlen\obj\Debug\net5.0\arrlen.genruntimeconfig.cache

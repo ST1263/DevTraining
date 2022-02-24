@@ -1,0 +1,16 @@
+E:\VS\Basic\ArrList\bin\Debug\net5.0\ArrList.exe
+E:\VS\Basic\ArrList\bin\Debug\net5.0\ArrList.deps.json
+E:\VS\Basic\ArrList\bin\Debug\net5.0\ArrList.runtimeconfig.json
+E:\VS\Basic\ArrList\bin\Debug\net5.0\ArrList.runtimeconfig.dev.json
+E:\VS\Basic\ArrList\bin\Debug\net5.0\ArrList.dll
+E:\VS\Basic\ArrList\bin\Debug\net5.0\ref\ArrList.dll
+E:\VS\Basic\ArrList\bin\Debug\net5.0\ArrList.pdb
+E:\VS\Basic\ArrList\obj\Debug\net5.0\ArrList.csproj.AssemblyReference.cache
+E:\VS\Basic\ArrList\obj\Debug\net5.0\ArrList.GeneratedMSBuildEditorConfig.editorconfig
+E:\VS\Basic\ArrList\obj\Debug\net5.0\ArrList.AssemblyInfoInputs.cache
+E:\VS\Basic\ArrList\obj\Debug\net5.0\ArrList.AssemblyInfo.cs
+E:\VS\Basic\ArrList\obj\Debug\net5.0\ArrList.csproj.CoreCompileInputs.cache
+E:\VS\Basic\ArrList\obj\Debug\net5.0\ArrList.dll
+E:\VS\Basic\ArrList\obj\Debug\net5.0\ref\ArrList.dll
+E:\VS\Basic\ArrList\obj\Debug\net5.0\ArrList.pdb
+E:\VS\Basic\ArrList\obj\Debug\net5.0\ArrList.genruntimeconfig.cache
