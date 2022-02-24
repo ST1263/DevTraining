@@ -1,0 +1,16 @@
+E:\VS\Basic\Hashtable\bin\Debug\net5.0\Hashtable.exe
+E:\VS\Basic\Hashtable\bin\Debug\net5.0\Hashtable.deps.json
+E:\VS\Basic\Hashtable\bin\Debug\net5.0\Hashtable.runtimeconfig.json
+E:\VS\Basic\Hashtable\bin\Debug\net5.0\Hashtable.runtimeconfig.dev.json
+E:\VS\Basic\Hashtable\bin\Debug\net5.0\Hashtable.dll
+E:\VS\Basic\Hashtable\bin\Debug\net5.0\ref\Hashtable.dll
+E:\VS\Basic\Hashtable\bin\Debug\net5.0\Hashtable.pdb
+E:\VS\Basic\Hashtable\obj\Debug\net5.0\Hashtable.GeneratedMSBuildEditorConfig.editorconfig
+E:\VS\Basic\Hashtable\obj\Debug\net5.0\Hashtable.AssemblyInfoInputs.cache
+E:\VS\Basic\Hashtable\obj\Debug\net5.0\Hashtable.AssemblyInfo.cs
+E:\VS\Basic\Hashtable\obj\Debug\net5.0\Hashtable.csproj.CoreCompileInputs.cache
+E:\VS\Basic\Hashtable\obj\Debug\net5.0\Hashtable.dll
+E:\VS\Basic\Hashtable\obj\Debug\net5.0\ref\Hashtable.dll
+E:\VS\Basic\Hashtable\obj\Debug\net5.0\Hashtable.pdb
+E:\VS\Basic\Hashtable\obj\Debug\net5.0\Hashtable.genruntimeconfig.cache
+E:\VS\Basic\Hashtable\obj\Debug\net5.0\Hashtable.csproj.AssemblyReference.cache
