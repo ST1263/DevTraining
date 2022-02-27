@@ -1,0 +1,32 @@
+E:\VS\interface\interface\bin\Debug\net5.0\interface.exe
+E:\VS\interface\interface\bin\Debug\net5.0\interface.deps.json
+E:\VS\interface\interface\bin\Debug\net5.0\interface.runtimeconfig.json
+E:\VS\interface\interface\bin\Debug\net5.0\interface.runtimeconfig.dev.json
+E:\VS\interface\interface\bin\Debug\net5.0\interface.dll
+E:\VS\interface\interface\bin\Debug\net5.0\ref\interface.dll
+E:\VS\interface\interface\bin\Debug\net5.0\interface.pdb
+E:\VS\interface\interface\obj\Debug\net5.0\interface.csproj.AssemblyReference.cache
+E:\VS\interface\interface\obj\Debug\net5.0\interface.GeneratedMSBuildEditorConfig.editorconfig
+E:\VS\interface\interface\obj\Debug\net5.0\interface.AssemblyInfoInputs.cache
+E:\VS\interface\interface\obj\Debug\net5.0\interface.AssemblyInfo.cs
+E:\VS\interface\interface\obj\Debug\net5.0\interface.csproj.CoreCompileInputs.cache
+E:\VS\interface\interface\obj\Debug\net5.0\interface.dll
+E:\VS\interface\interface\obj\Debug\net5.0\ref\interface.dll
+E:\VS\interface\interface\obj\Debug\net5.0\interface.pdb
+E:\VS\interface\interface\obj\Debug\net5.0\interface.genruntimeconfig.cache
+E:\DevTrainning\C# Task\interface\interface\bin\Debug\net5.0\interface.exe
+E:\DevTrainning\C# Task\interface\interface\bin\Debug\net5.0\interface.deps.json
+E:\DevTrainning\C# Task\interface\interface\bin\Debug\net5.0\interface.runtimeconfig.json
+E:\DevTrainning\C# Task\interface\interface\bin\Debug\net5.0\interface.runtimeconfig.dev.json
+E:\DevTrainning\C# Task\interface\interface\bin\Debug\net5.0\interface.dll
+E:\DevTrainning\C# Task\interface\interface\bin\Debug\net5.0\ref\interface.dll
+E:\DevTrainning\C# Task\interface\interface\bin\Debug\net5.0\interface.pdb
+E:\DevTrainning\C# Task\interface\interface\obj\Debug\net5.0\interface.csproj.AssemblyReference.cache
+E:\DevTrainning\C# Task\interface\interface\obj\Debug\net5.0\interface.GeneratedMSBuildEditorConfig.editorconfig
+E:\DevTrainning\C# Task\interface\interface\obj\Debug\net5.0\interface.AssemblyInfoInputs.cache
+E:\DevTrainning\C# Task\interface\interface\obj\Debug\net5.0\interface.AssemblyInfo.cs
+E:\DevTrainning\C# Task\interface\interface\obj\Debug\net5.0\interface.csproj.CoreCompileInputs.cache
+E:\DevTrainning\C# Task\interface\interface\obj\Debug\net5.0\interface.dll
+E:\DevTrainning\C# Task\interface\interface\obj\Debug\net5.0\ref\interface.dll
+E:\DevTrainning\C# Task\interface\interface\obj\Debug\net5.0\interface.pdb
+E:\DevTrainning\C# Task\interface\interface\obj\Debug\net5.0\interface.genruntimeconfig.cache

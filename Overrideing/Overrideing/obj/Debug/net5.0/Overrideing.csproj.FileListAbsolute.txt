@@ -1,0 +1,16 @@
+E:\VS\Overrideing\Overrideing\bin\Debug\net5.0\Overrideing.exe
+E:\VS\Overrideing\Overrideing\bin\Debug\net5.0\Overrideing.deps.json
+E:\VS\Overrideing\Overrideing\bin\Debug\net5.0\Overrideing.runtimeconfig.json
+E:\VS\Overrideing\Overrideing\bin\Debug\net5.0\Overrideing.runtimeconfig.dev.json
+E:\VS\Overrideing\Overrideing\bin\Debug\net5.0\Overrideing.dll
+E:\VS\Overrideing\Overrideing\bin\Debug\net5.0\ref\Overrideing.dll
+E:\VS\Overrideing\Overrideing\bin\Debug\net5.0\Overrideing.pdb
+E:\VS\Overrideing\Overrideing\obj\Debug\net5.0\Overrideing.csproj.AssemblyReference.cache
+E:\VS\Overrideing\Overrideing\obj\Debug\net5.0\Overrideing.GeneratedMSBuildEditorConfig.editorconfig
+E:\VS\Overrideing\Overrideing\obj\Debug\net5.0\Overrideing.AssemblyInfoInputs.cache
+E:\VS\Overrideing\Overrideing\obj\Debug\net5.0\Overrideing.AssemblyInfo.cs
+E:\VS\Overrideing\Overrideing\obj\Debug\net5.0\Overrideing.csproj.CoreCompileInputs.cache
+E:\VS\Overrideing\Overrideing\obj\Debug\net5.0\Overrideing.dll
+E:\VS\Overrideing\Overrideing\obj\Debug\net5.0\ref\Overrideing.dll
+E:\VS\Overrideing\Overrideing\obj\Debug\net5.0\Overrideing.pdb
+E:\VS\Overrideing\Overrideing\obj\Debug\net5.0\Overrideing.genruntimeconfig.cache

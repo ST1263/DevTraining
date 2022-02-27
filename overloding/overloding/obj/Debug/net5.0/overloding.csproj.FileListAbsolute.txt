@@ -1,0 +1,16 @@
+E:\VS\overloding\overloding\bin\Debug\net5.0\overloding.exe
+E:\VS\overloding\overloding\bin\Debug\net5.0\overloding.deps.json
+E:\VS\overloding\overloding\bin\Debug\net5.0\overloding.runtimeconfig.json
+E:\VS\overloding\overloding\bin\Debug\net5.0\overloding.runtimeconfig.dev.json
+E:\VS\overloding\overloding\bin\Debug\net5.0\overloding.dll
+E:\VS\overloding\overloding\bin\Debug\net5.0\ref\overloding.dll
+E:\VS\overloding\overloding\bin\Debug\net5.0\overloding.pdb
+E:\VS\overloding\overloding\obj\Debug\net5.0\overloding.csproj.AssemblyReference.cache
+E:\VS\overloding\overloding\obj\Debug\net5.0\overloding.GeneratedMSBuildEditorConfig.editorconfig
+E:\VS\overloding\overloding\obj\Debug\net5.0\overloding.AssemblyInfoInputs.cache
+E:\VS\overloding\overloding\obj\Debug\net5.0\overloding.AssemblyInfo.cs
+E:\VS\overloding\overloding\obj\Debug\net5.0\overloding.csproj.CoreCompileInputs.cache
+E:\VS\overloding\overloding\obj\Debug\net5.0\overloding.dll
+E:\VS\overloding\overloding\obj\Debug\net5.0\ref\overloding.dll
+E:\VS\overloding\overloding\obj\Debug\net5.0\overloding.pdb
+E:\VS\overloding\overloding\obj\Debug\net5.0\overloding.genruntimeconfig.cache
