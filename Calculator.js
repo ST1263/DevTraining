@@ -5,7 +5,20 @@ $("document").ready(function(){
 var id=$("input[name='math']:checked").val();
 
       let result ;
-   if(id=="add")
+      switch (add) {
+      case "add":
+         return +fnum + +snum;
+      case "divide":
+         return +fnum / +snum;
+      case "subtract":
+         return +fnum - +snum;
+      case "multiply":
+         return +fnum * +snum;
+     
+      default:
+         return 0;
+   }
+   /*if(id=="add")
 {
 result=parseInt(fnum) + parseInt(snum);
 }
@@ -22,7 +35,7 @@ else
 {
   alert("Select one Option for Perform task");
 }
-
+*/
      $("#result").val(result);
      $("#display").val(result);
 });
@@ -53,7 +66,20 @@ if(snum==""){
 var id=$("input[name='math']:checked").val();
 
       let result ;
-   if(id=="add")
+      switch (add) {
+      case "add":
+         return +fnum + +snum;
+      case "divide":
+         return +fnum / +snum;
+      case "subtract":
+         return +fnum - +snum;
+      case "multiply":
+         return +fnum * +snum;
+     
+      default:
+         return 0;
+   }
+   /*if(id=="add")
 {
 result=parseInt(fnum) + parseInt(snum);
 }
@@ -69,7 +95,7 @@ result=parseInt(fnum) / parseInt(snum);
 else
 {
   alert("Select one Option for Perform task");
-}
+}*/
 
      $("#result").val(result);
      $("#display").val(result);
