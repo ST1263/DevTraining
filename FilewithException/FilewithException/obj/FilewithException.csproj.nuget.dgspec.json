@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\VS\\interface\\interface\\interface.csproj": {}
+    "E:\\DevTrainning\\C# Task\\FilewithException\\FilewithException\\FilewithException.csproj": {}
   },
   "projects": {
-    "E:\\VS\\interface\\interface\\interface.csproj": {
+    "E:\\DevTrainning\\C# Task\\FilewithException\\FilewithException\\FilewithException.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\VS\\interface\\interface\\interface.csproj",
-        "projectName": "interface",
-        "projectPath": "E:\\VS\\interface\\interface\\interface.csproj",
+        "projectUniqueName": "E:\\DevTrainning\\C# Task\\FilewithException\\FilewithException\\FilewithException.csproj",
+        "projectName": "FilewithException",
+        "projectPath": "E:\\DevTrainning\\C# Task\\FilewithException\\FilewithException\\FilewithException.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "E:\\VS\\interface\\interface\\obj\\",
+        "outputPath": "E:\\DevTrainning\\C# Task\\FilewithException\\FilewithException\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

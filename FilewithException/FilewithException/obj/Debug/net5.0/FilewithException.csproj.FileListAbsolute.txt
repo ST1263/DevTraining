@@ -1,0 +1,16 @@
+E:\VS\FilewithException\FilewithException\bin\Debug\net5.0\FilewithException.exe
+E:\VS\FilewithException\FilewithException\bin\Debug\net5.0\FilewithException.deps.json
+E:\VS\FilewithException\FilewithException\bin\Debug\net5.0\FilewithException.runtimeconfig.json
+E:\VS\FilewithException\FilewithException\bin\Debug\net5.0\FilewithException.runtimeconfig.dev.json
+E:\VS\FilewithException\FilewithException\bin\Debug\net5.0\FilewithException.dll
+E:\VS\FilewithException\FilewithException\bin\Debug\net5.0\ref\FilewithException.dll
+E:\VS\FilewithException\FilewithException\bin\Debug\net5.0\FilewithException.pdb
+E:\VS\FilewithException\FilewithException\obj\Debug\net5.0\FilewithException.csproj.AssemblyReference.cache
+E:\VS\FilewithException\FilewithException\obj\Debug\net5.0\FilewithException.GeneratedMSBuildEditorConfig.editorconfig
+E:\VS\FilewithException\FilewithException\obj\Debug\net5.0\FilewithException.AssemblyInfoInputs.cache
+E:\VS\FilewithException\FilewithException\obj\Debug\net5.0\FilewithException.AssemblyInfo.cs
+E:\VS\FilewithException\FilewithException\obj\Debug\net5.0\FilewithException.csproj.CoreCompileInputs.cache
+E:\VS\FilewithException\FilewithException\obj\Debug\net5.0\FilewithException.dll
+E:\VS\FilewithException\FilewithException\obj\Debug\net5.0\ref\FilewithException.dll
+E:\VS\FilewithException\FilewithException\obj\Debug\net5.0\FilewithException.pdb
+E:\VS\FilewithException\FilewithException\obj\Debug\net5.0\FilewithException.genruntimeconfig.cache
