@@ -4,45 +4,49 @@ $("document").ready(function(){
       var snum=$("#snum").val();
 var id=$("input[name='math']:checked").val();
 
-      let result ;
-      switch (add) {
-      case "add":
-         return +fnum + +snum;
-      case "divide":
-         return +fnum / +snum;
-      case "subtract":
-         return +fnum - +snum;
-      case "multiply":
-         return +fnum * +snum;
-     
-      default:
-         return 0;
+      let result;
+
+      switch(id){
+       
+        case 'add':
+        
+        result=parseInt(fnum) + parseInt(snum);
+        break;
+         case 'sub':
+        
+
+        result=parseInt(fnum) - parseInt(snum);
+        break;
+         case 'multi':
+        
+
+        result=parseInt(fnum) * parseInt(snum);
+        break;
+         case 'div':
+         
+
+        result=parseInt(fnum) / parseInt(snum);
+        break;
+
+        default:
+        alert("Select one Option for Perform task");
+        break;
+      }
+
+   if (isNaN(result))  {
+    alert("Enter Integer Value");
+
    }
-   /*if(id=="add")
-{
-result=parseInt(fnum) + parseInt(snum);
-}
-else if(id=="sub"){
-result=parseInt(fnum) - parseInt(snum);
-}
-else if(id=="multi"){
-result=parseInt(fnum) * parseInt(snum);
-}
-else if(id=="div"){
-result=parseInt(fnum) / parseInt(snum);
-}
-else
-{
-  alert("Select one Option for Perform task");
-}
-*/
+   else{
      $("#result").val(result);
      $("#display").val(result);
+   }
 });
 $("#clear").click(function(){
  $("#fnum").val("")
 $("#snum").val("")
 $("#result").val("")
+$("input[type=radio][name=math]").prop('checked', false);
 $("#display").val("")
 });
 });
@@ -66,39 +70,40 @@ if(snum==""){
 var id=$("input[name='math']:checked").val();
 
       let result ;
-      switch (add) {
-      case "add":
-         return +fnum + +snum;
-      case "divide":
-         return +fnum / +snum;
-      case "subtract":
-         return +fnum - +snum;
-      case "multiply":
-         return +fnum * +snum;
-     
-      default:
-         return 0;
-   }
-   /*if(id=="add")
-{
-result=parseInt(fnum) + parseInt(snum);
-}
-else if(id=="sub"){
-result=parseInt(fnum) - parseInt(snum);
-}
-else if(id=="multi"){
-result=parseInt(fnum) * parseInt(snum);
-}
-else if(id=="div"){
-result=parseInt(fnum) / parseInt(snum);
-}
-else
-{
-  alert("Select one Option for Perform task");
-}*/
+    switch(id){
+       
+        case 'add':
+        
+        result=parseInt(fnum) + parseInt(snum);
+        break;
+         case 'sub':
+        
 
+        result=parseInt(fnum) - parseInt(snum);
+        break;
+         case 'multi':
+        
+
+        result=parseInt(fnum) * parseInt(snum);
+        break;
+         case 'div':
+         
+
+        result=parseInt(fnum) / parseInt(snum);
+        break;
+        default:
+        alert("Select one Option for Perform task");
+        break;
+
+      }
+if (isNaN(result))  {
+    alert("Enter Integer Value");
+
+   }
+   else{
      $("#result").val(result);
      $("#display").val(result);
+   }
     };
 
 
