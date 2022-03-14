@@ -27,3 +27,13 @@ E:\VS\WebLinkq\WebLinkq\obj\Debug\net5.0\WebLinkq.dll
 E:\VS\WebLinkq\WebLinkq\obj\Debug\net5.0\ref\WebLinkq.dll
 E:\VS\WebLinkq\WebLinkq\obj\Debug\net5.0\WebLinkq.pdb
 E:\VS\WebLinkq\WebLinkq\obj\Debug\net5.0\WebLinkq.genruntimeconfig.cache
+E:\VS\WebLinkq\WebLinkq\bin\Debug\net5.0\WebLinkq.Views.dll
+E:\VS\WebLinkq\WebLinkq\bin\Debug\net5.0\WebLinkq.Views.pdb
+E:\VS\WebLinkq\WebLinkq\obj\Debug\net5.0\WebLinkq.RazorAssemblyInfo.cache
+E:\VS\WebLinkq\WebLinkq\obj\Debug\net5.0\WebLinkq.RazorAssemblyInfo.cs
+E:\VS\WebLinkq\WebLinkq\obj\Debug\net5.0\WebLinkq.TagHelpers.input.cache
+E:\VS\WebLinkq\WebLinkq\obj\Debug\net5.0\WebLinkq.TagHelpers.output.cache
+E:\VS\WebLinkq\WebLinkq\obj\Debug\net5.0\WebLinkq.RazorCoreGenerate.cache
+E:\VS\WebLinkq\WebLinkq\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+E:\VS\WebLinkq\WebLinkq\obj\Debug\net5.0\WebLinkq.RazorTargetAssemblyInfo.cs
+E:\VS\WebLinkq\WebLinkq\obj\Debug\net5.0\WebLinkq.Views.pdb

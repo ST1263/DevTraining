@@ -200,11 +200,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\VS\\WebLinkq\\WebLinkq\\WebLinkq.csproj",
+      "projectUniqueName": "E:\\DevTrainning\\Asp\\WebLinkq\\WebLinkq\\WebLinkq.csproj",
       "projectName": "WebLinkq",
-      "projectPath": "E:\\VS\\WebLinkq\\WebLinkq\\WebLinkq.csproj",
+      "projectPath": "E:\\DevTrainning\\Asp\\WebLinkq\\WebLinkq\\WebLinkq.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "E:\\VS\\WebLinkq\\WebLinkq\\obj\\",
+      "outputPath": "E:\\DevTrainning\\Asp\\WebLinkq\\WebLinkq\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

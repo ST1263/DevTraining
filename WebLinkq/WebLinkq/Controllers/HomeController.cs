@@ -11,9 +11,17 @@ namespace WebLinkq.Controllers
     [Route("[controller]/[Action]")]
     public class HomeController : Controller
     {
+
+        //DI Constructor DI
+        private IEmpRepository diRepository { get; set; }
+        public HomeController(IEmpRepository diRepository)
+        {
+            this.diRepository = diRepository;
+        }
         [HttpGet]
         public ActionResult GetAllEmp()
         {
+          
             TestEmpRespository repository = new TestEmpRespository();
             List<Emp> allempdetails = repository.GetAllEmp();
             return Ok(allempdetails);
@@ -28,7 +36,7 @@ namespace WebLinkq.Controllers
                 return Ok(empDetails);
             }
            
-        }
+        
        /* public IActionResult Index()
         {
             return View();

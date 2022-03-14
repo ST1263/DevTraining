@@ -20,8 +20,8 @@ namespace WebLinkq.Models
         
         public Emp GetEmpById(int EmpId)
     {
-            /*return DataSource().FirstOrDefault(e => e.EmpId == EmpId);*/
-            return DataSource().First(e => e.EmpId == EmpId);
+            return DataSource().FirstOrDefault(e => e.EmpId == EmpId);
+           /* return DataSource().First(e => e.EmpId == EmpId);*/
             /*return DataSource().SingleOrDefault(e => e.EmpId == EmpId);*/
             /*return DataSource().Single(e => e.EmpId == EmpId);*/
 

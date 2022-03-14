@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace WebLinkq.Models
 {
-    interface IEmpRepository
+   public interface IEmpRepository
     {
         Emp GetEmpById(int EmpId);
         List<Emp> GetAllEmp();

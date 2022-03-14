@@ -11,6 +11,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using WebLinkq.Models;
 
 namespace WebLinkq
 {
@@ -32,6 +33,11 @@ namespace WebLinkq
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "WebLinkq", Version = "v1" });
             });
+
+            // DI
+            /*services.AddTransient<IEmpRepository, TestEmpRespository>();*/
+           services.AddSingleton<IEmpRepository, TestEmpRespository>();
+            /*services.AddScoped<IEmpRepository, TestEmpRespository>();*/
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
