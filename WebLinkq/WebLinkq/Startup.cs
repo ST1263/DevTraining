@@ -12,6 +12,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using WebLinkq.Models;
+using WebLinkq.Services;
 
 namespace WebLinkq
 {
@@ -34,10 +35,22 @@ namespace WebLinkq
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "WebLinkq", Version = "v1" });
             });
 
-            // DI
-            /*services.AddTransient<IEmpRepository, TestEmpRespository>();*/
-           services.AddSingleton<IEmpRepository, TestEmpRespository>();
-            /*services.AddScoped<IEmpRepository, TestEmpRespository>();*/
+            // DI Method
+            //Transient is create new instance every time if request call or same request call
+            // services.AddTransient<IEmpRepository, TestEmpRespository>();
+            //services.AddTransient<EmpService, EmpService>();
+            //services.AddTransient<EmpServicetwo, EmpServicetwo>();
+            // Singleton is one instance create for entire whole application
+            // services.AddSingleton<IEmpRepository, TestEmpRespository>();
+            //services.AddSingleton<EmpService, EmpService>();
+            //services.AddSingleton<EmpServicetwo, EmpServicetwo>();
+           
+            // Scoped is create is seprate instance 
+            services.AddScoped<IEmpRepository, TestEmpRespository>();
+            services.AddScoped<EmpService, EmpService>();
+            services.AddScoped<EmpServicetwo, EmpServicetwo>();
+            
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
