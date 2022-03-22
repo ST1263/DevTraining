@@ -11,9 +11,12 @@ export class DetailComponent implements OnInit {
   constructor(private route: ActivatedRoute) { }
 
   ngOnInit(): void {
-    this.route.paramMap.subscribe(qp =>{
-      alert(qp.getAll('name'));
+    // this.route.paramMap.subscribe(qp =>{
+    //   alert(qp.getAll('name'));
   
+    this.route.queryParamMap.subscribe(qp=>{
+      alert(qp.getAll('name'));
+    
      
     })
   }

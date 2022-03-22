@@ -19,13 +19,17 @@ const routes: Routes = [
     component:EditComponent,
   },
   {
-    path:'detail/:name',
+    path:'detail',
+    
     component:DetailComponent,
   },
   {
     path:'add',
     component:AddComponent
-  }
+  },
+  {
+    path: 'home', loadChildren:() => import('./home/home.module').then(m => m.HomeModule)
+  },
 ];
 
 @NgModule({

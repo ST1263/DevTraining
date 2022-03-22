@@ -24,7 +24,8 @@
 
         </td>
         <td>
-            <button class="bt2" [routerLink]="['/detail', item.name]">Details</button>
+            <!-- <button [routerLink]="['/detail', item.name]">Details</button> -->
+              <button class="bt2" [routerLink]="['../detail'] "[queryParams]="{name:item.name}">Details</button>  
         </td>
         
     </tr>
