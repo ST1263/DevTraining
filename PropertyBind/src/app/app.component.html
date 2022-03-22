@@ -1,0 +1,27 @@
+<div class="div1">
+  <h1 [style.color]="color" >Property Binding Task</h1>
+    <button (click)="Change()">Change color</button>
+    
+</div>
+<div>
+  <h2>
+    {{'Pipe Meethod use' | uppercase}}
+  </h2>
+</div>
+<div>
+  <h2>
+    {{'Pipe Meethod use' | lowercase}}
+  </h2>
+</div>
+<label>Attribute Binding</label>
+<table [attr.border]="br">
+  <tr>
+  <td>Name</td>
+  <td>Mobile</td>
+  </tr>
+  <tr>
+  <td>Shreyas</td>
+  <td>9503661263</td>
+  </tr>
+</table>
+
