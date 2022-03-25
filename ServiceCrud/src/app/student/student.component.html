@@ -1,0 +1,17 @@
+<p>student works!</p>
+<a routerLink="student/add/0">Add</a>
+<table class="table">
+    <thead>
+        <th>Id</th>
+        <th>Name</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let student of students">
+            <td>{{student.id}}</td>
+            <td>{{student.name}}</td>
+            <td><a [routerLink]="['student/edit/0',student.id]">Edit</a></td>
+            <td><button (click)="onDelete(student.id)">Del</button></td>
+
+        </tr>
+    </tbody>
+</table>
