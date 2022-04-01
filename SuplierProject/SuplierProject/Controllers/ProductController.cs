@@ -28,9 +28,9 @@ namespace SuplierProject.Controllers
 
         [HttpGet]
         [Route("GetProduct")]
-        public IActionResult GetProduct(int ProductId)
+        public IActionResult GetProduct(int productid)
         {
-            var result = _repo.GetProduct(ProductId);
+            var result = _repo.GetProduct(productid);
             return Ok(result);
         }
 

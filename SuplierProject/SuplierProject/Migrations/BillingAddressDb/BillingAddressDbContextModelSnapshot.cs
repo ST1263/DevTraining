@@ -26,27 +26,27 @@ namespace SuplierProject.Migrations.BillingAddressDb
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("AddressLine1")
+                    b.Property<string>("addressOne")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("AddressLine2")
+                    b.Property<string>("addressTwo")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("City")
+                    b.Property<string>("city")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Country")
+                    b.Property<string>("country")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("State")
+                    b.Property<string>("state")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("SuplierId")
+                    b.Property<int>("suplierid")
                         .HasColumnType("int");
 
                     b.HasKey("BillId");
 
-                    b.HasIndex("SuplierId")
+                    b.HasIndex("suplierid")
                         .IsUnique();
 
                     b.ToTable("BillingAddress");
@@ -54,38 +54,38 @@ namespace SuplierProject.Migrations.BillingAddressDb
 
             modelBuilder.Entity("SuplierProject.Model.Product", b =>
                 {
-                    b.Property<int>("ProductId")
+                    b.Property<int>("productid")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("ProductName")
+                    b.Property<string>("productname")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("SuplierId")
-                        .HasColumnType("int");
-
-                    b.Property<double>("UnitPrice")
+                    b.Property<double>("produtunit")
                         .HasColumnType("float");
 
-                    b.HasKey("ProductId");
+                    b.Property<int?>("suplierid")
+                        .HasColumnType("int");
 
-                    b.HasIndex("SuplierId");
+                    b.HasKey("productid");
+
+                    b.HasIndex("suplierid");
 
                     b.ToTable("Product");
                 });
 
             modelBuilder.Entity("SuplierProject.Model.Suplier", b =>
                 {
-                    b.Property<int>("SuplierId")
+                    b.Property<int>("suplierid")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("Name")
+                    b.Property<string>("supliername")
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("SuplierId");
+                    b.HasKey("suplierid");
 
                     b.ToTable("Suplier");
                 });
@@ -94,7 +94,7 @@ namespace SuplierProject.Migrations.BillingAddressDb
                 {
                     b.HasOne("SuplierProject.Model.Suplier", "Suplier")
                         .WithOne("BillingAddress")
-                        .HasForeignKey("SuplierProject.Model.BillingAddress", "SuplierId")
+                        .HasForeignKey("SuplierProject.Model.BillingAddress", "suplierid")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -105,7 +105,7 @@ namespace SuplierProject.Migrations.BillingAddressDb
                 {
                     b.HasOne("SuplierProject.Model.Suplier", "Suplier")
                         .WithMany("Products")
-                        .HasForeignKey("SuplierId");
+                        .HasForeignKey("suplierid");
 
                     b.Navigation("Suplier");
                 });

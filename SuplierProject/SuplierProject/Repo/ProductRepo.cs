@@ -21,9 +21,9 @@ namespace SuplierProject.Repo
             return _context.Product.ToList();
         }
 
-        public Product GetProduct(int ProductId)
+        public Product GetProduct(int productid)
         {
-            return _context.Product.FirstOrDefault(e => e.ProductId == ProductId);
+            return _context.Product.FirstOrDefault(e => e.productid == productid);
         }
 
         public void AddProduct(Product product)
@@ -38,9 +38,9 @@ namespace SuplierProject.Repo
             _context.SaveChanges();
         }
 
-        public void DeleteProduct(int ProductId)
+        public void DeleteProduct(int productid)
         {
-            var product = _context.Product.Where(s => s.ProductId == ProductId).FirstOrDefault();
+            var product = _context.Product.Where(s => s.productid == productid).FirstOrDefault();
             if (product != null)
             {
                 _context.Remove(product);

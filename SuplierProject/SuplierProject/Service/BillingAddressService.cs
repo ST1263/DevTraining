@@ -15,9 +15,9 @@ namespace SuplierProject.Service
             _service = service;
         }
 
-        public List<BillingAddress> GetBillingbysuplierId(int SuplierID)
+        public List<BillingAddress> GetBillingbysuplierId(int suplierid)
         {
-            return _service.GetBillingbysuplierId(SuplierID).ToList();
+            return _service.GetBillingbysuplierId(suplierid).ToList();
         }
 
         public void AddBillingAddress(BillingAddress billingAddress)

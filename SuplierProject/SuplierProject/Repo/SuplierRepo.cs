@@ -23,16 +23,16 @@ namespace SuplierProject.Repo
 
                           select new Suplier
                           {
-                              SuplierId = s.SuplierId,
-                              Name = s.Name
+                              suplierid = s.suplierid,
+                              supliername = s.supliername
 
                           }).ToList();
             return result;
         }
 
-        public Suplier GetSuplier(int SuplierId)
+        public Suplier GetSuplier(int suplierid)
         {
-            return _context.Suplier.FirstOrDefault(e => e.SuplierId == SuplierId);
+            return _context.Suplier.FirstOrDefault(e => e.suplierid == suplierid);
         }
 
         public void AddSuplier(Suplier suplier)
@@ -49,7 +49,7 @@ namespace SuplierProject.Repo
 
         public void DeleteSuplier(int suplier)
         {
-            var supplier = _context.Suplier.Where(s => s.SuplierId == suplier).FirstOrDefault();
+            var supplier = _context.Suplier.Where(s => s.suplierid == suplier).FirstOrDefault();
             if (supplier != null)
             {
                 _context.Remove(supplier);

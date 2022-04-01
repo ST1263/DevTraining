@@ -20,9 +20,9 @@ namespace SuplierProject.Controllers
 
         [HttpGet]
         [Route("GetBillingbysuplierId")]
-        public IActionResult GetBillingbysuplierId(int SuplierId)
+        public IActionResult GetBillingbysuplierId(int suplierid)
         {
-            var billings = _repo.GetBillingbysuplierId(SuplierId);
+            var billings = _repo.GetBillingbysuplierId(suplierid);
             return Ok(billings);
         }
 

@@ -9,7 +9,7 @@ namespace SuplierProject.Infra
     public interface IProduct
     {
         public List<Product> Getproducts();
-        public Product GetProduct(int ProductId);
+        public Product GetProduct(int productid);
         public void AddProduct(Product product);
         public void UpdateProduct(Product product);
         public void DeleteProduct(int product);

@@ -10,12 +10,12 @@ namespace SuplierProject.Model
     {   
         [Key]
         public int BillId { get; set; }
-        public string AddressLine1 { get; set; }
-        public string AddressLine2 { get; set; }
-        public string City { get; set; }
-        public string State { get; set; }
-        public string Country { get; set; }
-        public int SuplierId { get; set; }
+        public string addressOne { get; set; }
+        public string addressTwo { get; set; }
+        public string city { get; set; }
+        public string state { get; set; }
+        public string country { get; set; }
+        public int suplierid { get; set; }
         public virtual Suplier Suplier { get; set; }
     }
 }

@@ -9,7 +9,7 @@ namespace SuplierProject.Infra
     public interface ISuplier
     {
         public List<Suplier> GetSupliers();
-        public Suplier GetSuplier(int SuplierId);
+        public Suplier GetSuplier(int suplierid);   
         public void AddSuplier(Suplier suplier);
         public void UpdateSuplier(Suplier suplier);
         public void DeleteSuplier(int suplier);

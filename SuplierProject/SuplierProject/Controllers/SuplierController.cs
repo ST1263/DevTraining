@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace SuplierProject.Controllers
 {
-    /*[Authorize]*/
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class SuplierController : Controller
@@ -30,9 +30,9 @@ namespace SuplierProject.Controllers
 
         [HttpGet]
         [Route("GetSuplier")]
-        public IActionResult GetSuplier(int SuplierId)
+        public IActionResult GetSuplier(int suplierid)
         {
-            var result = _repo.GetSuplier(SuplierId);
+            var result = _repo.GetSuplier(suplierid);
             return Ok(result);
         }
 

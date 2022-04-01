@@ -9,8 +9,8 @@ namespace SuplierProject.Model
     public class Suplier
     {
         [Key]
-        public int SuplierId { get; set;}
-        public string Name { get; set;}
+        public int suplierid { get; set;}
+        public string supliername { get; set;}
         public virtual BillingAddress BillingAddress { get; set; }
         public virtual ICollection<Product> Products { get; set; }
     }

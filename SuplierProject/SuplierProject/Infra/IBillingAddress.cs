@@ -8,7 +8,7 @@ namespace SuplierProject.Infra
 {
     public interface IBillingAddress
     {
-        public List<BillingAddress> GetBillingbysuplierId(int SuplierId);
+        public List<BillingAddress> GetBillingbysuplierId(int suplierid);
         public void AddBillingAddress(BillingAddress billingAddress);
         public void UpdateBillingAddress(BillingAddress billingAddress);
         public void DeleteBillingAddress(int suplier);

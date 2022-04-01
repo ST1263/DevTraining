@@ -20,9 +20,9 @@ namespace SuplierProject.Service
             return _service.GetSupliers().ToList();
         }
 
-        public Suplier GetSuplier(int SuplierId)
+        public Suplier GetSuplier(int suplierid)
         {
-            return _service.GetSuplier(SuplierId);
+            return _service.GetSuplier(suplierid);
         }
 
         public void AddSuplier(Suplier suplier)

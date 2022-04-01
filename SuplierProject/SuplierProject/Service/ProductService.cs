@@ -20,9 +20,9 @@ namespace SuplierProject.Service
             return _service.Getproducts().ToList();
         }
 
-        public Product GetProduct(int ProductId)
+        public Product GetProduct(int productid)
         {
-            return _service.GetProduct(ProductId);
+            return _service.GetProduct(productid);
         }
 
         public void AddProduct(Product product)

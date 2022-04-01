@@ -16,7 +16,7 @@ namespace SuplierProject.Repo
             _context = context;
         }
 
-        public List<BillingAddress> GetBillingbysuplierId(int SuplierId)
+        public List<BillingAddress> GetBillingbysuplierId(int suplierid)
         {
             return _context.BillingAddress.ToList();
         }
@@ -33,9 +33,9 @@ namespace SuplierProject.Repo
             _context.SaveChanges();
         }
 
-        public void DeleteBillingAddress(int SuplierId)
+        public void DeleteBillingAddress(int suplierid)
         {
-            var billingaddress = _context.BillingAddress.Where(s => s.SuplierId == SuplierId).FirstOrDefault();
+            var billingaddress = _context.BillingAddress.Where(s => s.suplierid == suplierid).FirstOrDefault();
             if (billingaddress != null)
             {
                 _context.Remove(billingaddress);
