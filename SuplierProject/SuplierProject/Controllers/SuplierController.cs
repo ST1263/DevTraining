@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace SuplierProject.Controllers
 {
-    [Authorize]
+    
     [Route("api/[controller]")]
     [ApiController]
     public class SuplierController : Controller

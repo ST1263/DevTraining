@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using SuplierProject.Model;
 using SuplierProject.Service;
 using System;
@@ -8,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace SuplierProject.Controllers
 {
+   
     [Route("api/[controller]")]
     [ApiController]
     public class BillingAddressController : Controller
