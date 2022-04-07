@@ -61,6 +61,8 @@ namespace SuplierProject
                                   {
                                       builder.AllowAnyHeader();
                                       builder.AllowAnyOrigin();
+                                      builder.AllowAnyMethod();
+                                
                                       //builder.WithOrigins("http://localhost:4200/");
                                   });
             });
@@ -124,7 +126,7 @@ namespace SuplierProject
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "SuplierProject v1"));
-                app.UseCors();
+             
             }
 
             app.UseHttpsRedirection();

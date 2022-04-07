@@ -24,7 +24,11 @@ namespace SuplierProject.Repo
                           select new Suplier
                           {
                               suplierid = s.suplierid,
-                              supliername = s.supliername
+                              supliername = s.supliername,
+                              Products = s.Products,
+                              BillingAddress = s.BillingAddress
+                              
+
 
                           }).ToList();
             return result;

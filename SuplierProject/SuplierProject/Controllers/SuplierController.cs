@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace SuplierProject.Controllers
 {
-    
+    /*[Authorize]*/
     [Route("api/[controller]")]
     [ApiController]
     public class SuplierController : Controller
@@ -38,7 +38,7 @@ namespace SuplierProject.Controllers
 
         [HttpPost]
         [Route("AddSuplier")]
-        public IActionResult AddSuplier(Suplier suplier)
+        public IActionResult AddSuplier([FromBody] Suplier suplier)
         {
             try
             {
