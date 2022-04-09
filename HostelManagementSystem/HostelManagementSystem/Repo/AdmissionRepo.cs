@@ -1,6 +1,7 @@
 ﻿using HostelManagementSystem.Data;
 using HostelManagementSystem.Infra;
 using HostelManagementSystem.Model;
+using HostelManagementSystem.ViewModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,14 +17,71 @@ namespace HostelManagementSystem.Repo
             _context = context;
         }
 
-        public List<Admission> GetAdmissions()
+        public List<AdmissionVM> GetAdmissions()
         {
-            return _context.Admission.ToList();
+            //return _context.Admission.ToList();
+            var result = (from a in _context.Admission
+
+                          select new AdmissionVM
+                          {
+                              AdmissionId = a.AdmissionId,
+                              FullName = a.FullName,
+                              EmailId = a.EmailId,
+                              MobileNo = a.MobileNo,
+                              DateOfBirth = a.DateOfBirth,
+                              BloodGroup = a.BloodGroup,
+                              Caste = a.Caste,
+                              GuardianName = a.GuardianName,
+                              GuardianEmailId = a.GuardianEmailId,
+                              GuardianMobileNo = a.GuardianMobileNo,
+                              CourseName = a.CourseName,
+                              CurrentYear = a.CurrentYear,
+                              CollegeName = a.CollegeName,
+                              HouseName = a.HouseName,
+                              Locality = a.Locality,
+                              City = a.City,
+                              State = a.State,
+                              Country = a.Country,
+                              ZipCode = a.ZipCode,
+                              createdAT = a.createdAT,
+                              createdBy = a.createdBy,
+
+
+                          }).ToList();
+            return result;
         }
 
-        public Admission GetAdmissionById(int AdmissionId)
+        public AdmissionVM GetAdmissionById(int AdmissionId)
         {
-            return _context.Admission.FirstOrDefault(a => a.AdmissionId == AdmissionId);
+            //return _context.Admission.FirstOrDefault(a => a.AdmissionId == AdmissionId);
+            var result = (from a in _context.Admission
+
+                          select new AdmissionVM
+                          {
+                              AdmissionId = a.AdmissionId,
+                              FullName = a.FullName,
+                              EmailId = a.EmailId,
+                              MobileNo = a.MobileNo,
+                              DateOfBirth = a.DateOfBirth,
+                              BloodGroup = a.BloodGroup,
+                              Caste = a.Caste,
+                              GuardianName = a.GuardianName,
+                              GuardianEmailId = a.GuardianEmailId,
+                              GuardianMobileNo = a.GuardianMobileNo,
+                              CourseName = a.CourseName,
+                              CurrentYear = a.CurrentYear,
+                              CollegeName = a.CollegeName,
+                              HouseName = a.HouseName,
+                              Locality = a.Locality,
+                              City = a.City,
+                              State = a.State,
+                              Country = a.Country,
+                              ZipCode = a.ZipCode,
+                              createdAT = a.createdAT,
+                              createdBy = a.createdBy,
+
+                          }).FirstOrDefault();
+            return result;
         }
 
         public void AddAdmission(Admission admission)

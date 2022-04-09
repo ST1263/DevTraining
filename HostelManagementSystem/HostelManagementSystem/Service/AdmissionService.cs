@@ -1,5 +1,6 @@
 ﻿using HostelManagementSystem.Infra;
 using HostelManagementSystem.Model;
+using HostelManagementSystem.ViewModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,23 +16,72 @@ namespace HostelManagementSystem.Service
             _service = service;
         }
 
-        public List<Admission>GetAdmissions()
+        public List<AdmissionVM>GetAdmissions()
         {
             return _service.GetAdmissions().ToList();
         }
 
-        public Admission GetAdmissionById(int AdmissionId)
+        public AdmissionVM GetAdmissionById(int AdmissionId)
         {
             return _service.GetAdmissionById(AdmissionId);
         }
 
-        public void AddAdmission(Admission admission)
+        public void AddAdmission(AdmissionVM admissionvm)
         {
+            Admission admission = new Admission()
+            {
+                AdmissionId = admissionvm.AdmissionId,
+                FullName = admissionvm.FullName,
+                EmailId = admissionvm.EmailId,
+                MobileNo = admissionvm.MobileNo,
+                DateOfBirth = admissionvm.DateOfBirth,
+                BloodGroup = admissionvm.BloodGroup,
+                Caste = admissionvm.Caste,
+                GuardianName = admissionvm.GuardianName,
+                GuardianEmailId = admissionvm.GuardianEmailId,
+                GuardianMobileNo = admissionvm.GuardianMobileNo,
+                CourseName = admissionvm.CourseName,
+                CurrentYear = admissionvm.CurrentYear,
+                CollegeName = admissionvm.CollegeName,
+                HouseName = admissionvm.HouseName,
+                Locality = admissionvm.Locality,
+                City = admissionvm.City,
+                State = admissionvm.State,
+                Country = admissionvm.Country,
+                ZipCode = admissionvm.ZipCode,
+                createdAT = admissionvm.createdAT,
+                createdBy = admissionvm.createdBy,
+            };
+
             _service.AddAdmission(admission);
         }
 
-        public void UpdateAdmission(Admission admission)
+        public void UpdateAdmission(AdmissionVM admissionvm)
         {
+            Admission admission = new Admission()
+            {
+                AdmissionId = admissionvm.AdmissionId,
+                FullName = admissionvm.FullName,
+                EmailId = admissionvm.EmailId,
+                MobileNo = admissionvm.MobileNo,
+                DateOfBirth = admissionvm.DateOfBirth,
+                BloodGroup = admissionvm.BloodGroup,
+                Caste = admissionvm.Caste,
+                GuardianName = admissionvm.GuardianName,
+                GuardianEmailId = admissionvm.GuardianEmailId,
+                GuardianMobileNo = admissionvm.GuardianMobileNo,
+                CourseName = admissionvm.CourseName,
+                CurrentYear = admissionvm.CurrentYear,
+                CollegeName = admissionvm.CollegeName,
+                HouseName = admissionvm.HouseName,
+                Locality = admissionvm.Locality,
+                City = admissionvm.City,
+                State = admissionvm.State,
+                Country = admissionvm.Country,
+                ZipCode = admissionvm.ZipCode,
+                createdAT = admissionvm.createdAT,
+                createdBy = admissionvm.createdBy,
+            };
             _service.UpdateAdmission(admission);
         }
 

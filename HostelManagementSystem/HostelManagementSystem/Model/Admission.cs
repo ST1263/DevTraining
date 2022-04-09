@@ -11,8 +11,8 @@ namespace HostelManagementSystem.Model
         [Key]
         public int AdmissionId { get; set; }
         public string FullName { get; set; }
-        public string EmailId { get; set; }
-        public int MobileNo { get; set; }
+        public string EmailId { get; set; } 
+        public string MobileNo { get; set; }
         public string DateOfBirth { get; set; }
         public string BloodGroup { get; set; }
         public string Caste { get; set; }
@@ -28,5 +28,8 @@ namespace HostelManagementSystem.Model
         public string State { get; set; }
         public string Country { get; set; }
         public int ZipCode { get; set; }
+        [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
+        public DateTime createdAT { get; set; }
+        public string createdBy { get; set; }
     }
 }
