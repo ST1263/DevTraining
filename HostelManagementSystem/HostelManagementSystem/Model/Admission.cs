@@ -11,7 +11,7 @@ namespace HostelManagementSystem.Model
         [Key]
         public int AdmissionId { get; set; }
         public string FullName { get; set; }
-        public string EmailId { get; set; } 
+        public string EmailId { get; set; }
         public string MobileNo { get; set; }
         public string DateOfBirth { get; set; }
         public string BloodGroup { get; set; }
