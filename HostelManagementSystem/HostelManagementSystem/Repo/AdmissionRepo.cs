@@ -27,7 +27,7 @@ namespace HostelManagementSystem.Repo
                               AdmissionId = a.AdmissionId,
                               FullName = a.FullName,
                               EmailId = a.EmailId,
-                              MobileNo = a.MobileNo,
+                              MobileNo= a.MobileNo,
                               DateOfBirth = a.DateOfBirth,
                               BloodGroup = a.BloodGroup,
                               Caste = a.Caste,

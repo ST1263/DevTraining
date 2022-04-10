@@ -26,15 +26,10 @@ namespace HostelManagementSystem.Controllers
         [Route("GetAdmissions")]
         public IActionResult GetAdmissions()
         {
-            try
-            {
                 var alladmission = _repo.GetAdmissions();
                 return Ok(alladmission);
-            }
-            catch (Exception ex)
-            {
-                return NotFound(ex.Message);
-            }
+            
+           
         }
 
         [HttpGet]
