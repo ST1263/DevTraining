@@ -14,44 +14,44 @@ namespace HostelManagementSystem.Controllers
     [Authorize]
     [Route("api/[controller]")]
     [ApiController]
-    public class AdmissionController : Controller
+    public class RoomDetailsController : Controller
     {
-        AdmissionService _repo;
-        public AdmissionController(AdmissionService repo)
+        RoomDetailsService _repo;
+        public RoomDetailsController(RoomDetailsService repo)
         {
             _repo = repo;
         }
 
         [HttpGet]
-        [Route("GetAdmissions")]
-        public IActionResult GetAdmissions()
+        [Route("GetRoomDetails")]
+        public IActionResult GetRoomDetails()
         {
-            var alladmission = _repo.GetAdmissions();
-            return Ok(alladmission);
+            var allrooms = _repo.GetRoomDetails();
+            return Ok(allrooms);
         }
 
         [HttpGet]
-        [Route("GetAdmissionById")]
-        public IActionResult GetAdmissionById(int AdmissionId)
-        { 
-            var result = _repo.GetAdmissionById(AdmissionId);
+        [Route("GetRoomDetailsByNo")]
+        public IActionResult GetRoomDetailsByNo(int RoomNo)
+        {
+            var result = _repo.GetRoomDetailsByNo(RoomNo);
             return Ok(result);
         }
 
         [HttpPost]
-        [Route("AddAdmission")]
-        public IActionResult AddAdmission(AdmissionVM admission)
+        [Route("AddRoom")]
+        public IActionResult AddRoom(RoomDetailsVM roomDetails)
         {
             try
             {
                 if (!ModelState.IsValid)
                 {
-                    return StatusCode(StatusCodes.Status500InternalServerError, new Response { Status = "Error", Message = "Admission Failed! Please check your details and try again." });
+                    return StatusCode(StatusCodes.Status500InternalServerError, new Response { Status = "Error", Message = "Room Details Failed! Please check your details and try again." });
                     //return BadRequest();
                 }
-                _repo.AddAdmission(admission);
+                _repo.AddRoom(roomDetails);
                 //return Ok();
-                return Ok(new Response { Status = "Success", Message = "Admission successfully!" });
+                return Ok(new Response { Status = "Success", Message = "Room Details Add successfully!" });
             }
             catch (Exception ex)
             {
@@ -60,8 +60,8 @@ namespace HostelManagementSystem.Controllers
         }
 
         [HttpPut]
-        [Route("UpdateAdmission")]
-        public IActionResult UpdateAdmission(AdmissionVM admission)
+        [Route("UpdateRoom")]
+        public IActionResult UpdateRoom(RoomDetailsVM roomDetails)
         {
             try
             {
@@ -70,8 +70,8 @@ namespace HostelManagementSystem.Controllers
                     return StatusCode(StatusCodes.Status500InternalServerError, new Response { Status = "Error", Message = "Update Failed! Please check your details and try again." });
                     //return BadRequest();
                 }
-                _repo.UpdateAdmission(admission);
-                return Ok(new Response { Status = "Success", Message = "Update successfully!" });
+                _repo.UpdateRoom(roomDetails);
+                return Ok(new Response { Status = "Success", Message = "Update Room Details successfully!" });
                 //return Ok();
             }
             catch (Exception ex)
@@ -81,8 +81,8 @@ namespace HostelManagementSystem.Controllers
         }
 
         [HttpDelete]
-        [Route("DeleteAdmission")]
-        public IActionResult DeleteAdmission(int admission)
+        [Route("DeleteRoom")]
+        public IActionResult DeleteRoom(int roomDetails)
         {
             try
             {
@@ -91,8 +91,8 @@ namespace HostelManagementSystem.Controllers
                     return StatusCode(StatusCodes.Status500InternalServerError, new Response { Status = "Error", Message = "Delete Failed! Please check your details and try again." });
                     //return BadRequest();
                 }
-                _repo.DeleteAdmission(admission);
-                return Ok(new Response { Status = "Success", Message = "Delete successfully!" });
+                _repo.DeleteRoom(roomDetails);
+                return Ok(new Response { Status = "Success", Message = "Delete Romm Details successfully!" });
                 //return Ok();
             }
             catch (Exception ex)
@@ -100,10 +100,9 @@ namespace HostelManagementSystem.Controllers
                 return NotFound(ex.Message);
             }
         }
-        /* public IActionResult Index()
-         {
-             return View();
-         }*/
+        /*public IActionResult Index()
+        {
+            return View();
+        }*/
     }
 }
-
