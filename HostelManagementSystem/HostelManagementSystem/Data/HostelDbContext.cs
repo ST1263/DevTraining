@@ -14,5 +14,6 @@ namespace HostelManagementSystem.Data
 
         }
         public DbSet<Admission> Admission { get; set; }
+        public DbSet<RoomDetails> RoomDetails { get; set; }
     }
 }

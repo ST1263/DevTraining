@@ -41,6 +41,8 @@ namespace HostelManagementSystem
             services.AddDbContext<HostelDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnectionString")));
             services.AddTransient<IAdmission, AdmissionRepo>();
             services.AddTransient<AdmissionService, AdmissionService>();
+            services.AddTransient<IRoomDetails, RoomDetailsRepo>();
+            services.AddTransient<RoomDetailsService, RoomDetailsService>();
             services.AddTransient<IFileService, FileService>();
             services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnectionString")));
             services.AddIdentity<ApplicationUser, IdentityRole>()
