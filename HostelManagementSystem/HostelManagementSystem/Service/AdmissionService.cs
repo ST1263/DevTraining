@@ -21,7 +21,7 @@ namespace HostelManagementSystem.Service
             return _service.GetAdmissions().ToList();
         }
 
-        public Admission GetAdmissionById(int AdmissionId)
+        public AdmissionVM GetAdmissionById(int AdmissionId)
         {
             return _service.GetAdmissionById(AdmissionId);
         }

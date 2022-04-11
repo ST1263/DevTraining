@@ -30,5 +30,6 @@ namespace HostelManagementSystem.ViewModel
         public int ZipCode { get; set; }
         public DateTime createdAT { get; set; }
         public string createdBy { get; set; }
+        public int RoomAllocationNo { get; set; }
     }
 }
