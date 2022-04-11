@@ -10,7 +10,7 @@ namespace HostelManagementSystem.Infra
     public interface IRoomAllocation
     {
         public List<RoomAllocationVM> GetRoomAllocations();
-        public RoomAllocationVM GetRoomAllocationByNo(int RoomAllocationNo);
+        public RoomAllocation GetRoomAllocationByNo(int RoomAllocationNo);
         public void AddRoomAllocation(RoomAllocation roomAllocation);
         public void UpdateRoomAllocation(RoomAllocation roomAllocation);
         public void DeleteRoomAllocation(int roroomAllocation);

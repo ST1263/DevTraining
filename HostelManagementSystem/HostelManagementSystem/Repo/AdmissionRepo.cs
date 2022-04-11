@@ -48,10 +48,10 @@ namespace HostelManagementSystem.Repo
             return result;
         }
 
-        public AdmissionVM GetAdmissionById(int AdmissionId)
+        public Admission GetAdmissionById(int AdmissionId)
         {
-            //return _context.Admission.FirstOrDefault(a => a.AdmissionId == AdmissionId);
-            var result = (from a in _context.Admission
+            return _context.Admission.FirstOrDefault(a => a.AdmissionId == AdmissionId);
+           /* var result = (from a in _context.Admission
                           select new AdmissionVM
                           {
                               AdmissionId = a.AdmissionId,
@@ -76,7 +76,7 @@ namespace HostelManagementSystem.Repo
                               createdAT = a.createdAT,
                               createdBy = a.createdBy,
                           }).FirstOrDefault();
-            return result;
+            return result;*/
         }
 
         public void AddAdmission(Admission admission)

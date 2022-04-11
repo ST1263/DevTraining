@@ -21,7 +21,7 @@ namespace HostelManagementSystem.Service
             return _service.GetRoomAllocations().ToList();
         }
 
-        public RoomAllocationVM GetRoomAllocationByNo(int RoomAllocationNo)
+        public RoomAllocation GetRoomAllocationByNo(int RoomAllocationNo)
         {
             return _service.GetRoomAllocationByNo(RoomAllocationNo);
         }
