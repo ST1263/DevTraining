@@ -9,7 +9,6 @@ namespace HostelManagementSystem.Model
 {
     public class RoomAllocation
     {
-        [ForeignKey("Admission")]
         public int Id { get; set; }
         public int RoomAllocationNo { get; set; }
     }
