@@ -21,7 +21,6 @@ namespace HostelManagementSystem.Repo
         {
             //return _context.RoomDetails.ToList();
             var result = (from a in _context.RoomDetails
-
                           select new RoomDetailsVM
                           {
                               RoomNo = a.RoomNo,
@@ -34,7 +33,6 @@ namespace HostelManagementSystem.Repo
         {
             //return _context.Admission.FirstOrDefault(a => a.AdmissionId == AdmissionId);
             var result = (from a in _context.RoomDetails
-
                           select new RoomDetailsVM
                           {
                               RoomNo = a.RoomNo,

@@ -43,6 +43,8 @@ namespace HostelManagementSystem
             services.AddTransient<AdmissionService, AdmissionService>();
             services.AddTransient<IRoomDetails, RoomDetailsRepo>();
             services.AddTransient<RoomDetailsService, RoomDetailsService>();
+            services.AddTransient<IRoomAllocation, RoomAllocationRepo>();
+            services.AddTransient<RoomAllocationService, RoomAllocationService>();
             services.AddTransient<IFileService, FileService>();
             services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnectionString")));
             services.AddIdentity<ApplicationUser, IdentityRole>()
