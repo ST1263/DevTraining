@@ -18,7 +18,7 @@ namespace HostelManagementSystem.ViewModel
         public string Caste { get; set; }
         public string GuardianName { get; set; }
         public string GuardianEmailId { get; set; }
-        public int GuardianMobileNo { get; set; }
+        public string GuardianMobileNo { get; set; }
         public string CollegeName { get; set; }
         public string CourseName { get; set; }
         public string CurrentYear { get; set; }

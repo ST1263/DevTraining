@@ -46,7 +46,6 @@ namespace HostelManagementSystem.Controllers
         [HttpGet(nameof(Download))]  
         public IActionResult Download([Required]string subDirectory)  
         {  
-  
             try  
             {  
                 var (fileType, archiveData, archiveName) = _fileService.DownloadFiles(subDirectory);  
@@ -57,7 +56,6 @@ namespace HostelManagementSystem.Controllers
             {  
                 return BadRequest(ex.Message);  
             }  
-  
         }  
         #endregion  
        /* public IActionResult Index()

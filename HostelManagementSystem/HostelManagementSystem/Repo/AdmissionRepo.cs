@@ -21,7 +21,6 @@ namespace HostelManagementSystem.Repo
         {
             //return _context.Admission.ToList();
             var result = (from a in _context.Admission
-
                           select new AdmissionVM
                           {
                               AdmissionId = a.AdmissionId,
@@ -45,8 +44,6 @@ namespace HostelManagementSystem.Repo
                               ZipCode = a.ZipCode,
                               createdAT = a.createdAT,
                               createdBy = a.createdBy,
-
-
                           }).ToList();
             return result;
         }
@@ -55,7 +52,6 @@ namespace HostelManagementSystem.Repo
         {
             //return _context.Admission.FirstOrDefault(a => a.AdmissionId == AdmissionId);
             var result = (from a in _context.Admission
-
                           select new AdmissionVM
                           {
                               AdmissionId = a.AdmissionId,
@@ -79,7 +75,6 @@ namespace HostelManagementSystem.Repo
                               ZipCode = a.ZipCode,
                               createdAT = a.createdAT,
                               createdBy = a.createdBy,
-
                           }).FirstOrDefault();
             return result;
         }

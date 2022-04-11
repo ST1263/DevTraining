@@ -22,17 +22,16 @@ namespace HostelManagementSystem.Service
         public FileService(IHostingEnvironment hostingEnvironment)  
         {  
             _hostingEnvironment = hostingEnvironment;  
-        }  
-        #endregion  
- 
+        }
+        #endregion
+
         #region Upload File  
+        [Obsolete]
         public void UploadFile(List<IFormFile> files, string subDirectory)  
         {  
             subDirectory = subDirectory ?? string.Empty;  
             var target = Path.Combine(_hostingEnvironment.ContentRootPath, subDirectory);  
-  
             Directory.CreateDirectory(target);  
-  
             files.ForEach(async file =>  
             {  
                 if (file.Length <= 0) return;  
@@ -42,16 +41,15 @@ namespace HostelManagementSystem.Service
                     await file.CopyToAsync(stream);  
                 }  
             });  
-        }  
-        #endregion  
- 
+        }
+        #endregion
+
         #region Download File  
+        [Obsolete]
         public (string fileType, byte[] archiveData, string archiveName) DownloadFiles(string subDirectory)  
         {  
             var zipName = $"archive-{DateTime.Now.ToString("yyyy_MM_dd-HH_mm_ss")}.zip";  
-  
             var files = Directory.GetFiles(Path.Combine(_hostingEnvironment.ContentRootPath, subDirectory)).ToList();  
-  
             using (var memoryStream = new MemoryStream())  
             {  
                 using (var archive = new ZipArchive(memoryStream, ZipArchiveMode.Create, true))  
@@ -63,13 +61,10 @@ namespace HostelManagementSystem.Service
                         {  
                             streamWriter.Write(File.ReadAllText(file));  
                         }  
-  
                     });  
                 }  
-  
                 return ("application/zip", memoryStream.ToArray(), zipName);  
             }  
-  
         }  
         #endregion  
  
@@ -80,7 +75,6 @@ namespace HostelManagementSystem.Service
             var kilobyte = new decimal(1024);  
             var megabyte = new decimal(1024 * 1024);  
             var gigabyte = new decimal(1024 * 1024 * 1024);  
-  
             switch (fileSize)  
             {  
                 case var _ when fileSize < kilobyte:  
@@ -96,6 +90,5 @@ namespace HostelManagementSystem.Service
             }  
         }  
         #endregion  
-  
     }  
 }

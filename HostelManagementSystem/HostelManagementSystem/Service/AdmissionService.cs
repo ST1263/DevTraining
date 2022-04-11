@@ -52,7 +52,6 @@ namespace HostelManagementSystem.Service
                 createdAT = admissionvm.createdAT,
                 createdBy = admissionvm.createdBy,
             };
-
             _service.AddAdmission(admission);
         }
 
