@@ -29,16 +29,9 @@ namespace HostelManagementSystem.Repo
             return result;
         }
 
-        public RoomDetailsVM GetRoomDetailsByNo(int RoomNo)
+        public RoomDetails GetRoomDetailsByNo(int RoomNo)
         {
-            //return _context.Admission.FirstOrDefault(a => a.AdmissionId == AdmissionId);
-            var result = (from a in _context.RoomDetails
-                          select new RoomDetailsVM
-                          {
-                              RoomNo = a.RoomNo,
-                              RoomSize = a.RoomSize,
-                          }).FirstOrDefault();
-            return result;
+            return _context.RoomDetails.FirstOrDefault(a => a.RoomNo == RoomNo);
         }
 
         public void AddRoom(RoomDetails roomDetails)

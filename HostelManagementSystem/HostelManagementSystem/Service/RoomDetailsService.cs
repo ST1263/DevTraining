@@ -21,7 +21,7 @@ namespace HostelManagementSystem.Service
             return _service.GetRoomDetails().ToList();
         }
 
-        public RoomDetailsVM GetRoomDetailsByNo(int RoomNo)
+        public RoomDetails GetRoomDetailsByNo(int RoomNo)
         {
             return _service.GetRoomDetailsByNo(RoomNo);
         }

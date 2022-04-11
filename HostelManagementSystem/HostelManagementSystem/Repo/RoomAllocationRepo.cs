@@ -30,17 +30,9 @@ namespace HostelManagementSystem.Repo
             return result;
         }
 
-        public RoomAllocationVM GetRoomAllocationByNo(int RoomAllocationNo)
+        public RoomAllocation GetRoomAllocationByNo(int RoomAllocationNo)
         {
-            //return _context.Admission.FirstOrDefault(a => a.AdmissionId == AdmissionId);
-            var result = (from a in _context.RoomAllocation
-                          select new RoomAllocationVM
-                          {
-                              Id = a.Id,
-                              RoomAllocationNo = a.RoomAllocationNo,
-                              AdmissionId = a.AdmissionId,
-                          }).FirstOrDefault();
-            return result;
+            return _context.RoomAllocation.FirstOrDefault(a => a.RoomAllocationNo == RoomAllocationNo);
         }
 
         public void AddRoomAllocation(RoomAllocation roomAllocation)
