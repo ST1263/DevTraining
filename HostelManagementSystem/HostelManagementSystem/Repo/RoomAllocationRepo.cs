@@ -25,6 +25,7 @@ namespace HostelManagementSystem.Repo
                           {
                               Id = a.Id,
                               RoomAllocationNo = a.RoomAllocationNo,
+                              AdmissionId = a.AdmissionId,
                           }).ToList();
             return result;
         }
@@ -37,6 +38,7 @@ namespace HostelManagementSystem.Repo
                           {
                               Id = a.Id,
                               RoomAllocationNo = a.RoomAllocationNo,
+                              AdmissionId = a.AdmissionId,
                           }).FirstOrDefault();
             return result;
         }

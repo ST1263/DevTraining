@@ -9,5 +9,6 @@ namespace HostelManagementSystem.ViewModel
     {
         public int Id { get; set; }
         public int RoomAllocationNo { get; set; }
+        public int AdmissionId { get; set; }
     }
 }

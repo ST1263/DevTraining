@@ -11,5 +11,7 @@ namespace HostelManagementSystem.Model
     {
         public int Id { get; set; }
         public int RoomAllocationNo { get; set; }
+        public int AdmissionId { get; set; }
+        public virtual Admission Admission { get; set; }
     }
 }
