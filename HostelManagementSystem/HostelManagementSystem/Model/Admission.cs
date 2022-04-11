@@ -49,5 +49,6 @@ namespace HostelManagementSystem.Model
         public DateTime createdAT { get; set; }
         [MaxLength(25)]
         public string createdBy { get; set; }
+        public virtual RoomAllocation RoomAllocation { get; set; }
     }
 }

@@ -32,6 +32,7 @@ namespace HostelManagementSystem.Service
             {
                 Id = roomAllocationVM.Id,
                 RoomAllocationNo = roomAllocationVM.RoomAllocationNo,
+                AdmissionId = roomAllocationVM.AdmissionId,
             };
             _service.AddRoomAllocation(roomAllocation);
         }
@@ -42,6 +43,7 @@ namespace HostelManagementSystem.Service
             {
                 Id = roomAllocationVM.Id,
                 RoomAllocationNo = roomAllocationVM.RoomAllocationNo,
+                AdmissionId = roomAllocationVM.AdmissionId,
             };
             _service.AddRoomAllocation(roomAllocation);
         }
