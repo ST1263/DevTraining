@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace HostelManagementSystem.Model
@@ -49,6 +50,7 @@ namespace HostelManagementSystem.Model
         public DateTime createdAT { get; set; }
         [MaxLength(25)]
         public string createdBy { get; set; }
+        [JsonIgnore]
         public virtual RoomAllocation RoomAllocation { get; set; }
     }
 }
