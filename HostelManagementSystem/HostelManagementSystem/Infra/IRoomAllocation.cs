@@ -13,6 +13,6 @@ namespace HostelManagementSystem.Infra
         public RoomAllocation GetRoomAllocationByNo(int RoomAllocationNo);
         public void AddRoomAllocation(RoomAllocation roomAllocation);
         public void UpdateRoomAllocation(RoomAllocation roomAllocation);
-        public void DeleteRoomAllocation(int roroomAllocation);
+        public void DeleteRoomAllocation(int Id);
     }
 }

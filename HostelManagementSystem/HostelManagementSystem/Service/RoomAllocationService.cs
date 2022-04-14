@@ -48,9 +48,9 @@ namespace HostelManagementSystem.Service
             _service.AddRoomAllocation(roomAllocation);
         }
 
-        public void DeleteRoomAllocation(int roroomAllocationom)
+        public void DeleteRoomAllocation(int Id)
         {
-            _service.DeleteRoomAllocation(roroomAllocationom);
+            _service.DeleteRoomAllocation(Id);
         }
     }
 }

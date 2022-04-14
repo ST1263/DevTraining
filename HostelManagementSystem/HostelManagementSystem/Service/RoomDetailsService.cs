@@ -46,9 +46,9 @@ namespace HostelManagementSystem.Service
             _service.UpdateRoom(roomDetails);
         }
 
-        public void DeleteRoom(int roomDetails)
+        public void DeleteRoom(int RoomNo)
         {
-            _service.DeleteRoom(roomDetails);
+            _service.DeleteRoom(RoomNo);
         }
     }
 }
