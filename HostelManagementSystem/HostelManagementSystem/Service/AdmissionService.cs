@@ -84,9 +84,9 @@ namespace HostelManagementSystem.Service
             _service.UpdateAdmission(admission);
         }
 
-        public void DeleteAdmission(int admission)
+        public void DeleteAdmission(int AdmissionId)
         {
-            _service.DeleteAdmission(admission);
+            _service.DeleteAdmission(AdmissionId);
         }
     }
 }

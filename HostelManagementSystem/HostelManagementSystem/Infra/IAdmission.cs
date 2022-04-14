@@ -13,6 +13,6 @@ namespace HostelManagementSystem.Infra
         public AdmissionVM GetAdmissionById(int AdmissionId);
         public void AddAdmission(Admission admission);
         public void UpdateAdmission(Admission admission);
-        public void DeleteAdmission(int admission);
+        public void DeleteAdmission(int AdmissionId);
     }
 }

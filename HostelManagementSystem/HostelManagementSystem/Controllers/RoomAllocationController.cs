@@ -81,8 +81,8 @@ namespace HostelManagementSystem.Controllers
         }
 
         [HttpDelete]
-        [Route("DeleteRoomAllocation")]
-        public IActionResult DeleteRoomAllocation(int roroomAllocation)
+        [Route("DeleteRoomAllocation/{Id}")]
+        public IActionResult DeleteRoomAllocation(int Id)
         {
             try
             {
@@ -91,7 +91,7 @@ namespace HostelManagementSystem.Controllers
                     return StatusCode(StatusCodes.Status500InternalServerError, new Response { Status = "Error", Message = "Delete Failed! Please check your details and try again." });
                     //return BadRequest();
                 }
-                _repo.DeleteRoomAllocation(roroomAllocation);
+                _repo.DeleteRoomAllocation(Id);
                 return Ok(new Response { Status = "Success", Message = "Delete successfully!" });
                 //return Ok();
             }

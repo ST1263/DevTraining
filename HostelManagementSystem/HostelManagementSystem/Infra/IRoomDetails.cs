@@ -13,6 +13,6 @@ namespace HostelManagementSystem.Infra
         public RoomDetails GetRoomDetailsByNo(int RoomNo);
         public void AddRoom(RoomDetails roomDetails);
         public void UpdateRoom(RoomDetails roomDetails);
-        public void DeleteRoom(int roomDetails);
+        public void DeleteRoom(int RoomNo);
     }
 }

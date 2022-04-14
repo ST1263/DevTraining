@@ -146,9 +146,9 @@ namespace HostelManagementSystem.Repo
             _context.SaveChanges();
         }
 
-        public void DeleteAdmission(int admission)
+        public void DeleteAdmission(int AdmissionId)
         {
-            var deladmission = _context.Admission.Where(s => s.AdmissionId == admission).FirstOrDefault();
+            var deladmission = _context.Admission.Where(s => s.AdmissionId == AdmissionId).FirstOrDefault();
             if (deladmission != null)
             {
                 _context.Remove(deladmission);

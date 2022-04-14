@@ -46,9 +46,9 @@ namespace HostelManagementSystem.Repo
             _context.SaveChanges();
         }
 
-        public void DeleteRoom(int roomDetails)
+        public void DeleteRoom(int RoomNo)
         {
-            var delroom = _context.RoomDetails.Where(s => s.RoomNo == roomDetails).FirstOrDefault();
+            var delroom = _context.RoomDetails.Where(s => s.RoomNo == RoomNo).FirstOrDefault();
             if (delroom != null)
             {
                 _context.Remove(delroom);

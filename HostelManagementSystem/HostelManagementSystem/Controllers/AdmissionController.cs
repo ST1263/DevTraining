@@ -81,8 +81,8 @@ namespace HostelManagementSystem.Controllers
         }
 
         [HttpDelete]
-        [Route("DeleteAdmission")]
-        public IActionResult DeleteAdmission(int admission)
+        [Route("DeleteAdmission/{AdmissionId}")]
+        public IActionResult DeleteAdmission(int AdmissionId)
         {
             try
             {
@@ -91,7 +91,7 @@ namespace HostelManagementSystem.Controllers
                     return StatusCode(StatusCodes.Status500InternalServerError, new Response { Status = "Error", Message = "Delete Failed! Please check your details and try again." });
                     //return BadRequest();
                 }
-                _repo.DeleteAdmission(admission);
+                _repo.DeleteAdmission(AdmissionId);
                 return Ok(new Response { Status = "Success", Message = "Delete successfully!" });
                 //return Ok();
             }
