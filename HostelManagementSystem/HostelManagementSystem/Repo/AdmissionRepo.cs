@@ -70,7 +70,7 @@ namespace HostelManagementSystem.Repo
                 ZipCode = a.ZipCode,
                 createdAT = a.createdAT,
                 createdBy = a.createdBy,
-                RoomAllocationNo = a.RoomAllocation.RoomAllocationNo
+              RoomAllocationNo = a.RoomAllocation.RoomAllocationNo
             }).ToList();
             return result;
         }
@@ -128,6 +128,7 @@ namespace HostelManagementSystem.Repo
                 createdAT = a.createdAT,
                 createdBy = a.createdBy,
                 RoomAllocationNo = a.RoomAllocation.RoomAllocationNo
+               
             }).FirstOrDefault();
             return result;
         }

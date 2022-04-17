@@ -26,6 +26,7 @@ namespace HostelManagementSystem
 {
     public class Startup
     {
+        readonly string MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -50,6 +51,18 @@ namespace HostelManagementSystem
             services.AddIdentity<ApplicationUser, IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
+            services.AddCors(options =>
+            {
+                options.AddPolicy(name: MyAllowSpecificOrigins,
+                                  builder =>
+                                  {
+                                      builder.AllowAnyHeader();
+                                      builder.AllowAnyOrigin();
+                                      builder.AllowAnyMethod();
+
+                                      //builder.WithOrigins("http://localhost:4200/");
+                                  });
+            });
             services.AddAuthentication(options =>
             {
                 options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -110,7 +123,7 @@ namespace HostelManagementSystem
             }
 
             app.UseHttpsRedirection();
-
+            app.UseCors(MyAllowSpecificOrigins);
             app.UseRouting();
 
             app.UseAuthentication();
