@@ -33,6 +33,7 @@ namespace HostelManagementSystem.Repo
         public RoomAllocation GetRoomAllocationByNo(int RoomAllocationNo)
         {
             return _context.RoomAllocation.FirstOrDefault(a => a.RoomAllocationNo == RoomAllocationNo);
+
         }
 
         public void AddRoomAllocation(RoomAllocation roomAllocation)

@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace HostelManagementSystem.Controllers
 {
-    [Authorize]
+    /*[Authorize]*/
     [Route("api/[controller]")]
     [ApiController]
     public class AdmissionController : Controller
@@ -40,7 +40,7 @@ namespace HostelManagementSystem.Controllers
 
         [HttpPost]
         [Route("AddAdmission")]
-        public IActionResult AddAdmission(AdmissionVM admission)
+        public IActionResult AddAdmission([FromBody] AdmissionVM admission)
         {
             try
             {
